@@ -7,14 +7,10 @@ public:
             sort(s.begin(),s.end());
             mp[s].push_back(x);
         }
-        vector<vector<string>> ans;
-        
+        vector<vector<string>>ans;
         for(auto x:mp){
-           ans.push_back(x.second);
-
-            
+            ans.push_back(x.second);
         }
         return ans;
-
     }
 };
